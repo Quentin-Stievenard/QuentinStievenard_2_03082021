@@ -1,0 +1,52 @@
+* {
+  font-family: "Raleway", sans-serif;
+  padding: 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-header {
+  display: flex;
+}
+
+.activite {
+  margin-left: 30px;
+}
+
+.signup {
+  margin-left: 30px;
+}
+
+.filtre {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.hebergement {
+  display: flex;
+}
+
+.room {
+  width: 200px;
+  height: 133px;
+}
+
+.populaires {
+  width: 200px;
+  height: 150px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
