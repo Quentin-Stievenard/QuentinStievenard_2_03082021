@@ -17,12 +17,21 @@ header {
   display: flex;
 }
 
+.hebergement-link {
+  color: #0065fc;
+  cursor: pointer;
+}
+
 .activite {
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .signup {
   margin-left: 30px;
+  color: #0065fc;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .filtre {
@@ -49,4 +58,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.search.button {
+  color: #0065fc;
 }
