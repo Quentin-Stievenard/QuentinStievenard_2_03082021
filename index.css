@@ -117,6 +117,8 @@ form.search i.fa {
   width: 300px;
   height: auto;
   margin-bottom: 48px;
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.03),
+    1px 4px 16px rgba(14, 21, 28, 0.05);
 }
 
 .hebergement-item figure img {
@@ -177,6 +179,58 @@ figcaption p {
 
 .plus-populaires {
   background-color: #f2f2f2;
+  padding: 40px 44px;
+  padding-bottom: 0;
+  border-radius: 24px;
+}
+
+.plus-populaires header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.plus-populaires header i.fa {
+  background: #f2f2f2;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 8px 0 0 8px;
+}
+
+.populaire-item {
+  margin-right: 34px;
+  background-color: white;
+  padding: 4px;
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 48px;
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.03),
+    1px 4px 16px rgba(14, 21, 28, 0.05);
+}
+
+.populaire-item figure {
+  display: flex;
+  align-items: center;
+}
+
+.populaire-item figure img {
+  border-radius: 16px 0 0 16px;
+}
+
+.populaire-item figcaption {
+  margin-left: 32px;
+}
+
+.populaire-item figcaption h4 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.populaire-item figcaption p {
+  margin-bottom: 48px;
 }
 
 .populaires {
