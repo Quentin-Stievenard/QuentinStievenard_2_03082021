@@ -94,6 +94,15 @@ header {
 .hebergement-item {
   margin-right: 34px;
   background-color: white;
+  padding: 4px;
+  border-radius: 16px;
+  width: 280px;
+  height: auto;
+}
+
+.hebergement-item figure img {
+  border-radius: 16px 16px 0 0;
+  width: 100%;
 }
 
 figcaption h4 {
