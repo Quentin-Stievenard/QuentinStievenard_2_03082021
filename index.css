@@ -238,11 +238,16 @@ figcaption p {
   height: 150px;
 }
 
+.activites-marseille {
+  height: 600px;
+}
+
 .activites-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: repeat(4, 450px);
+  grid-template-rows: repeat(2, 300px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 .activites-marseille h2 {
@@ -254,62 +259,72 @@ figcaption p {
 .vieux-port {
   margin-right: 34px;
   background-color: white;
-  height: fit-content;
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
-  grid-column: 1;
-  grid-row: 1;
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.vieux-port img {
+  width: 100%;
 }
 
 .fort {
-  margin-right: 34px;
   background-color: white;
-  width: fit-content;
-  height: fit-content;
+  width: 300px;
   border-radius: 16px;
-  margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
+  grid-area: 1 / 2 / 2 / 3;
 }
 
 .iles {
   margin-right: 34px;
   background-color: white;
   width: fit-content;
-  height: fit-content;
+
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.fort img {
+  height: 300px;
+  width: 100%;
+}
+
+.iles img {
+  height: 300px;
 }
 
 .notre-dame {
   margin-right: 34px;
   background-color: white;
   width: fit-content;
-  height: fit-content;
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
+  grid-area: 1 / 3 / 3 / 4;
 }
 
 .parc {
   margin-right: 34px;
   background-color: white;
   width: fit-content;
-  height: fit-content;
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
+  grid-area: 1 / 4 / 2 / 5;
 }
 
 .calanques {
   margin-right: 34px;
   background-color: white;
   width: fit-content;
-  height: fit-content;
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
+  grid-area: 2 / 4 / 3 / 5;
 }
 
 .activite-item img {
