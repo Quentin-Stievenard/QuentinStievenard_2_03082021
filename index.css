@@ -258,7 +258,8 @@ figcaption p {
 
 .vieux-port {
   margin-right: 34px;
-  background-color: white;
+  background-color: red;
+  width: 300px;
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
@@ -270,8 +271,9 @@ figcaption p {
 }
 
 .fort {
-  background-color: white;
+  background-color: blue;
   width: 300px;
+  margin-bottom: 48px !important;
   border-radius: 16px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
   grid-area: 1 / 2 / 2 / 3;
@@ -279,8 +281,8 @@ figcaption p {
 
 .iles {
   margin-right: 34px;
-  background-color: white;
-  width: fit-content;
+  background-color: orange;
+  width: 300px;
 
   border-radius: 16px;
   margin-bottom: 48px;
@@ -295,12 +297,13 @@ figcaption p {
 
 .iles img {
   height: 300px;
+  width: 100%;
 }
 
 .notre-dame {
   margin-right: 34px;
-  background-color: white;
-  width: fit-content;
+  background-color: yellow;
+  width: 300px;
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
@@ -309,8 +312,8 @@ figcaption p {
 
 .parc {
   margin-right: 34px;
-  background-color: white;
-  width: fit-content;
+  background-color: purple;
+  width: 300px;
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
@@ -319,8 +322,8 @@ figcaption p {
 
 .calanques {
   margin-right: 34px;
-  background-color: white;
-  width: fit-content;
+  background-color: green;
+  width: 300px;
   border-radius: 16px;
   margin-bottom: 48px;
   box-shadow: 0px 0px 4px rgb(14 21 28 / 3%), 1px 4px 16px rgb(14 21 28 / 5%);
