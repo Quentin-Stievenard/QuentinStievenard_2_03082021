@@ -529,6 +529,10 @@ li.filter-item i {
     align-items: center;
   }
 
+  .plus-populaires {
+    border-radius: 0 !important;
+    padding: 38px 20px;
+  }
   .plus-populaires header h2 {
     font-size: 18px;
   }
@@ -539,5 +543,18 @@ li.filter-item i {
   .plus-populaires header i.fa {
     width: 30px;
     height: 30px;
+  }
+
+  .populaires {
+    width: 148px;
+    height: 148px;
+  }
+
+  .populaire-item figcaption h4 {
+    font-size: 14px;
+  }
+
+  .populaire-item {
+    margin-bottom: 14px;
   }
 }
