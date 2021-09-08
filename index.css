@@ -557,4 +557,53 @@ li.filter-item i {
   .populaire-item {
     margin-bottom: 14px;
   }
+
+  .container .hebergements-marseille {
+    background-color: white;
+    padding: 0;
+  }
+
+  .hebergement-item {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .hebergements-marseille a {
+    font-size: 14px;
+  }
+  .activites-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vieux-port {
+    width: 300px;
+    height: auto;
+    margin-right: 0;
+  }
+  .fort {
+    width: 300px;
+    height: 200px;
+    margin-right: 0;
+  }
+
+  .iles {
+    margin-right: 0;
+    height: 200px;
+  }
+  .calanques {
+    margin-right: 0;
+    height: 200px;
+  }
+  .notre-dame {
+    margin-right: 0;
+    height: 200px;
+  }
+  .notre-dame img {
+    height: 80% !important;
+  }
+
+  .parc {
+    margin-right: 0;
+    height: 200px;
+  }
 }
