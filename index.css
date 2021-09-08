@@ -436,11 +436,62 @@ li.filter-item i {
   color: #086afc;
 }
 
-@media screen and (max-width: 599px) {
-  html {
-    width: 599px !important;
-  }
+.nav-responsive {
+  display: none;
+}
+
+@media (max-width: 599px) {
   .container-page {
     width: 100% !important;
+  }
+
+  .activite {
+    display: none;
+  }
+  .hebergement-link {
+    display: none;
+  }
+  .nav-responsive {
+    display: flex !important;
+    align-items: center;
+  }
+  .hebergement-link-mobile {
+    background-color: white;
+    border: none;
+    color: #0065fc;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 16px;
+    border-bottom: 3px solid #0065fc;
+  }
+
+  .activite-link-mobile {
+    background-color: white;
+    border: none;
+
+    margin-top: 20px;
+    width: 50%;
+    font-size: 16px;
+  }
+
+  .activite-link-mobile:active {
+    border-bottom: 3px solid #0065fc;
+    color: #0065fc;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    margin-top: 16px !important;
+  }
+
+  .search .input-text {
+    width: 40% !important;
+  }
+
+  .filters h3 {
+    font-size: 16px;
   }
 }
