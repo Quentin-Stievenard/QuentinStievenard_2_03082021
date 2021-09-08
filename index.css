@@ -441,9 +441,6 @@ li.filter-item i {
 }
 
 @media (max-width: 599px) {
-  html {
-    padding: 20px;
-  }
   .container-page {
     width: 100% !important;
   }
@@ -610,6 +607,6 @@ li.filter-item i {
   footer .container-page {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 16px;
   }
 }
