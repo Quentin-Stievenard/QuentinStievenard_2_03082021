@@ -606,4 +606,10 @@ li.filter-item i {
     margin-right: 0;
     height: 200px;
   }
+
+  footer .container-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
