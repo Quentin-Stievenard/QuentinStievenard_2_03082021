@@ -489,6 +489,7 @@ li.filter-item i {
     font-size: 16px;
     border-bottom: 3px solid #0065fc;
   }
+
   .activite-link-mobile {
     background-color: white;
     border: none;
@@ -547,8 +548,7 @@ li.filter-item i {
   .plus-populaires {
     border-radius: 0 !important;
     padding-top: 38px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
     box-sizing: border-box;
   }
   .plus-populaires header h2 {
@@ -568,25 +568,42 @@ li.filter-item i {
   .populaire-item figcaption h4 {
     font-size: 14px;
   }
+
+  .populaire-item figcaption {
+    margin-left: 20px;
+  }
+
   .populaire-item {
     margin-bottom: 14px;
   }
   .container .hebergements-marseille {
     background-color: white;
     padding: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
   }
   .hebergement-item {
-    width: 300px;
+    width: 340px;
     margin-bottom: 10px;
   }
   .hebergements-marseille a {
     font-size: 14px;
   }
+
+  .hebergements-marseille h2 {
+    padding-left: 20px;
+  }
+
   .activites-list {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  .activites-marseille h2 {
+    padding-left: 20px;
+  }
+
   .vieux-port {
     width: 300px;
     height: auto;
@@ -620,5 +637,7 @@ li.filter-item i {
     display: flex;
     flex-direction: column;
     padding: 16px;
+    padding-right: 0;
+    width: 96% !important;
   }
 }
