@@ -467,6 +467,16 @@ li.filter-item i {
 }
 
 @media (max-width: 599px) {
+  .button {
+    display: none;
+  }
+
+  .responsive-button {
+    height: 29px;
+    color: red;
+    background-color: #0065fc;
+  }
+
   .container-page {
     width: 100% !important;
   }
