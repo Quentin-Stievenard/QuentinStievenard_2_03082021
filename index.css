@@ -472,29 +472,109 @@ li.filter-item i {
     display: none;
   }
 
+  .header-page {
+    display: block;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .link-header {
+    margin-top: 11px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .hebergement-link::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 180%;
+    background: #f2f2f2;
+    position: absolute;
+    bottom: -15px;
+    left: -63px;
+  }
+
+  .hebergement-link:hover {
+    color: #0065fc;
+  }
+
+  .hebergement-link:hover::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 180%;
+    background: #0065fc;
+    position: absolute;
+    bottom: -15px;
+    left: -63px;
+  }
+
+  .activite::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 321%;
+    background: #f2f2f2;
+    position: absolute;
+    bottom: -15px;
+    left: -59px;
+  }
+
+  .activite:hover {
+    color: #0065fc;
+  }
+
+  .activite:hover::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 321%;
+    background: #0065fc;
+    position: absolute;
+    bottom: -15px;
+    left: -59px;
+  }
+
+  .hebergement-link:hover::before,
+  .activite:hover::before {
+    display: none;
+  }
+
+  .signup {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+
   .search {
     display: flex;
     align-items: center;
+    padding-top: 20px;
+  }
+
+  form.search i.fa {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .responsive-button {
-    height: 31px;
+    height: 50px;
     color: red;
     background-color: #0065fc;
     display: block;
     border: none;
-    margin-left: 0;
+    margin-left: -15px;
+    border-radius: 8px;
   }
 
   .container-page {
     width: 100% !important;
   }
-  .activite {
-    display: none;
-  }
-  .hebergement-link {
-    display: none;
-  }
+
   .header-page {
     padding-left: 20px;
     padding-right: 20px;
@@ -529,12 +609,14 @@ li.filter-item i {
 
   .hero h2 {
     font-size: 18px;
+    padding-top: 20px;
   }
   .hero p {
     font-size: 12px;
   }
   .search .input-text {
-    width: 35% !important;
+    width: 50% !important;
+    height: 32px;
   }
   .filters h3 {
     font-size: 16px;
@@ -606,7 +688,8 @@ li.filter-item i {
     margin-bottom: 10px;
   }
   .hebergements-marseille a {
-    font-size: 14px;
+    font-size: 18px;
+    margin-left: 15px;
   }
 
   .hebergements-marseille h2 {
