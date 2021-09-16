@@ -464,6 +464,11 @@ li.filter-item p {
   padding: 6px 6px;
 }
 
+li.filter-item:hover p {
+  font-size: 20px;
+  color: #0065fc;
+}
+
 li.filter-item i {
   width: 54px;
   height: 54px;
@@ -608,6 +613,10 @@ li.filter-item i {
   }
   .hero p {
     font-size: 12px;
+  }
+
+  li.filter-item:hover p {
+    font-size: 16px;
   }
   .search .input-text {
     width: 50% !important;
