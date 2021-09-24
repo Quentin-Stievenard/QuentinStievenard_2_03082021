@@ -500,10 +500,6 @@ li.filter-item i {
     display: flex;
     flex-direction: column-reverse;
   }
-
-  .populaires-list {
-    flex-direction: row;
-  }
 }
 @media (max-width: 1390px) {
   .container-page {
